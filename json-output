@@ -1,0 +1,755 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify launching the IRCTC Homepage",
+        "description": "",
+        "id": "validate-ticket-reservation-in-irctc-application.;verify-launching-the-irctc-homepage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 806900,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user launch in chrome browser",
+            "match": {
+              "location": "stepDefinition.user_launch_in_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user enters the URL",
+            "match": {
+              "location": "stepDefinition.user_enters_the_URL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30400,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user should able to launch the application",
+            "match": {
+              "location": "stepDefinition.user_should_able_to_launch_the_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33500,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "accept the alert",
+            "match": {
+              "location": "stepDefinition.accept_the_alert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28200,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepDefinition.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "To verify \"From edit field\" not to accept an empty field.",
+        "description": "",
+        "id": "validate-ticket-reservation-in-irctc-application.;to-verify-\"from-edit-field\"-not-to-accept-an-empty-field.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 32900,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user launch in chrome browser",
+            "match": {
+              "location": "stepDefinition.user_launch_in_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30600,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user enters the URL",
+            "match": {
+              "location": "stepDefinition.user_enters_the_URL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30700,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user should able to launch the application",
+            "match": {
+              "location": "stepDefinition.user_should_able_to_launch_the_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25300,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "accept the alert",
+            "match": {
+              "location": "stepDefinition.accept_the_alert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17600,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Leave the From Station empty",
+            "match": {
+              "location": "stepDefinition.leave_the_From_Station_empty()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17200,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Enter valid data in To Station field",
+            "match": {
+              "location": "stepDefinition.enter_valid_data_in_remaining_fields()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111700,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepDefinition.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "To verify \"From Station field\" not to accept the invalid data(Special Characters)",
+        "description": "",
+        "id": "validate-ticket-reservation-in-irctc-application.;to-verify-\"from-station-field\"-not-to-accept-the-invalid-data(special-characters)",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18600,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user launch in chrome browser",
+            "match": {
+              "location": "stepDefinition.user_launch_in_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20900,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user enters the URL",
+            "match": {
+              "location": "stepDefinition.user_enters_the_URL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109900,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user should able to launch the application",
+            "match": {
+              "location": "stepDefinition.user_should_able_to_launch_the_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30400,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "accept the alert",
+            "match": {
+              "location": "stepDefinition.accept_the_alert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24900,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "Enter invalid data \"+\u003d-09@3$ \" in the From Station",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"+\u003d-09@3$ \"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinition.enter_invalid_data_in_the_From_Station(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26700,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "Enter valid city \"Chennai Egmore - MS \" in the To Staion",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chennai Egmore - MS \"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinition.enter_valid_city_in_the_To_Staion(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24500,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepDefinition.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "To verify \"From edit field\" not to accept the invalid City name and code",
+        "description": "",
+        "id": "validate-ticket-reservation-in-irctc-application.;to-verify-\"from-edit-field\"-not-to-accept-the-invalid-city-name-and-code",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8053900,
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "user launch in chrome browser",
+            "match": {
+              "location": "stepDefinition.user_launch_in_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29700,
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "user enters the URL",
+            "match": {
+              "location": "stepDefinition.user_enters_the_URL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83800,
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "user should able to launch the application",
+            "match": {
+              "location": "stepDefinition.user_should_able_to_launch_the_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29400,
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "accept the alert",
+            "match": {
+              "location": "stepDefinition.accept_the_alert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 186700,
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "Enter invalid data \"CMBTore\" in the From Station",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CMBTore\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinition.enter_invalid_data_in_the_From_Station(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88100,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "Enter valid city \"Chennai Egmore - MS\" in the To Staion",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chennai Egmore - MS\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinition.enter_valid_city_in_the_To_Staion(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 107700,
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepDefinition.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 51,
+        "name": "To verify \"From edit field\" and \"To Edit Field\" in valid data with multiple parameters.",
+        "description": "",
+        "id": "validate-ticket-reservation-in-irctc-application.;to-verify-\"from-edit-field\"-and-\"to-edit-field\"-in-valid-data-with-multiple-parameters.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24200,
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "user launch in chrome browser",
+            "match": {
+              "location": "stepDefinition.user_launch_in_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 88200,
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "user enters the URL",
+            "match": {
+              "location": "stepDefinition.user_enters_the_URL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31100,
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "user should able to launch the application",
+            "match": {
+              "location": "stepDefinition.user_should_able_to_launch_the_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22300,
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "accept the alert",
+            "match": {
+              "location": "stepDefinition.accept_the_alert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30100,
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "Enter valid data in From Station \"Coimbatore JN - CBE\" and To Station \"Chennai Egmore - MS\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Coimbatore JN - CBE\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Chennai Egmore - MS\"",
+                  "offset": 70
+                }
+              ],
+              "location": "stepDefinition.enter_valid_data_in_From_Station_and_To_Station(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23300,
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepDefinition.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 52,
+        "name": "To verify \"From edit field\" and \"To Edit Field\" in valid data with multiple parameters.",
+        "description": "",
+        "id": "validate-ticket-reservation-in-irctc-application.;to-verify-\"from-edit-field\"-and-\"to-edit-field\"-in-valid-data-with-multiple-parameters.;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 34000,
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "user launch in chrome browser",
+            "match": {
+              "location": "stepDefinition.user_launch_in_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29700,
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "user enters the URL",
+            "match": {
+              "location": "stepDefinition.user_enters_the_URL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51800,
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "user should able to launch the application",
+            "match": {
+              "location": "stepDefinition.user_should_able_to_launch_the_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 27600,
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "accept the alert",
+            "match": {
+              "location": "stepDefinition.accept_the_alert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22900,
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "Enter valid data in From Station \"CHENNAI PARK - MPK\" and To Station \"PUNE JN - PUNE\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CHENNAI PARK - MPK\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"PUNE JN - PUNE\"",
+                  "offset": 69
+                }
+              ],
+              "location": "stepDefinition.enter_valid_data_in_From_Station_and_To_Station(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36400,
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepDefinition.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 53,
+        "name": "To verify \"From edit field\" and \"To Edit Field\" in valid data with multiple parameters.",
+        "description": "",
+        "id": "validate-ticket-reservation-in-irctc-application.;to-verify-\"from-edit-field\"-and-\"to-edit-field\"-in-valid-data-with-multiple-parameters.;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 30400,
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "user launch in chrome browser",
+            "match": {
+              "location": "stepDefinition.user_launch_in_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24800,
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "user enters the URL",
+            "match": {
+              "location": "stepDefinition.user_enters_the_URL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17900,
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "user should able to launch the application",
+            "match": {
+              "location": "stepDefinition.user_should_able_to_launch_the_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22600,
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "accept the alert",
+            "match": {
+              "location": "stepDefinition.accept_the_alert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24900,
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "Enter valid data in From Station \"KOLKATA - KOAA\" and To Station \"MUMBAI CENTRAL - BCT\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"KOLKATA - KOAA\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"MUMBAI CENTRAL - BCT\"",
+                  "offset": 65
+                }
+              ],
+              "location": "stepDefinition.enter_valid_data_in_From_Station_and_To_Station(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24300,
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepDefinition.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 56,
+        "name": "To verify \"To Station Field\" with invalid data using Data Table Parameters",
+        "description": "",
+        "id": "validate-ticket-reservation-in-irctc-application.;to-verify-\"to-station-field\"-with-invalid-data-using-data-table-parameters",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21800,
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "user launch in chrome browser",
+            "match": {
+              "location": "stepDefinition.user_launch_in_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 41800,
+              "status": "skipped"
+            },
+            "line": 58,
+            "name": "user enters the URL",
+            "match": {
+              "location": "stepDefinition.user_enters_the_URL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22300,
+              "status": "skipped"
+            },
+            "line": 59,
+            "name": "user should able to launch the application",
+            "match": {
+              "location": "stepDefinition.user_should_able_to_launch_the_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19000,
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "accept the alert",
+            "match": {
+              "location": "stepDefinition.accept_the_alert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25500,
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "Enter valid data in the From Station and invalid data in To Station",
+            "match": {
+              "location": "stepDefinition.enter_valid_data_in_the_From_Station_and_invalid_data_in_To_Station(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "CHENNAI PARK - MPK",
+                  "Chennai"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18900,
+              "status": "skipped"
+            },
+            "line": 63,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepDefinition.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate Ticket Reservation in IRCTC Application.",
+    "description": "",
+    "id": "validate-ticket-reservation-in-irctc-application.",
+    "keyword": "Feature",
+    "uri": "C:/Users/SathyaElangovan/IdeaProjects/SeleniumCucumberV2/Features/Cucumber.Feature",
+    "tags": []
+  }
+]
